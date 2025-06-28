@@ -11,7 +11,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ news }) => {
       href={news.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="block rounded-lg shadow hover:shadow-lg transition p-4 border bg-white dark:bg-neutral-900 dark:border-neutral-800"
+      className="block cursor-pointer hover:scale-95 rounded-lg shadow hover:shadow-lg transition p-4 border bg-white dark:bg-neutral-900 dark:border-neutral-800"
     >
       <img
         src={news.photo_url}
